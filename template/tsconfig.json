@@ -11,6 +11,9 @@
     "moduleResolution": "node",
     "rootDir": "src",
     "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
@@ -19,6 +22,10 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true
   },
+  "filesGlob": [
+    "node_modules/**/*.d.ts",
+    "definitions/*.d.ts"
+  ],
   "exclude": [
     "node_modules",
     "build",
