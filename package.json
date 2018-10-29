@@ -1,6 +1,6 @@
 {
   "name": "react-scripts-ts-myj",
-  "version": "3.1.0",
+  "version": "3.1.2",
   "description": "TypeScript configuration and scripts for Create React App.",
   "repository": "SAMYJ1/create-react-app-typescript",
   "license": "BSD-3-Clause",
@@ -48,6 +48,7 @@
     "source-map-loader": "^0.2.1",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
+    "ts-import-plugin": "^1.5.5",
     "ts-jest": "22.0.1",
     "ts-loader": "^2.3.7",
     "tsconfig-paths-webpack-plugin": "^2.0.0",
