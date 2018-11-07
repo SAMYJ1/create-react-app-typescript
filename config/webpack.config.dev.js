@@ -371,7 +371,7 @@ module.exports = {
       async: false,
       watch: paths.appSrc,
       tsconfig: paths.appTsConfig,
-      tslint: paths.appTsLint,
+      // tslint: paths.appTsLint,
     }),
     // ignore *.less.d.ts file when those files changed
     new webpack.WatchIgnorePlugin([/\.d\.ts$/]),
